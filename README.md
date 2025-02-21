@@ -1,6 +1,14 @@
-# conda-Mase-phi: Multi-step Analysis of Subclonal Evolution using PhyloWGS and Hierarchical Inference
+# cMAF-mase-phi: conda based automated tumor marker selection pipeline built for HPCs
 
-A pipeline for analyzing patient mutation data through multiple steps:
+Selecting tumor markers from MAF files. 
+
+This is an automated pipeline build from [Mase-phi](https://github.com/CMUSchwartzLab/Mase-phi)
+
+Methods described in [Fu et al.](https://pubmed.ncbi.nlm.nih.gov/38586041/)
+
+Fu, X., Luo, Z., Deng, Y., LaFramboise, W., Bartlett, D., & Schwartz, R. (2024). Marker selection strategies for circulating tumor DNA guided by phylogenetic inference. bioRxiv : the preprint server for biology, 2024.03.21.585352. https://doi.org/10.1101/2024.03.21.585352
+
+This pipeline analyzes patient mutation data through multiple steps:
 1. Preprocessing of mutation data
 2. PhyloWGS analysis for subclonal reconstruction
 3. Aggregation of PhyloWGS results
